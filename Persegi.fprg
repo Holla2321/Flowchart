@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Darfito"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 09:42:26 AM"/>
+        <attribute name="created" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTswOToyNjoyNiBBTTszMDU0"/>
+        <attribute name="edited" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTswOTo0MjoyNiBBTTsxOzMxNjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Luas" type="Integer" array="False" size=""/>
+            <declare name="Panjang" type="Integer" array="False" size=""/>
+            <declare name="Lebar" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan nilai panjang&quot;" newline="True"/>
+            <input variable="Panjang"/>
+            <output expression="&quot;masukkan nilai lebar&quot;" newline="True"/>
+            <input variable="Lebar"/>
+            <assign variable="Luas" expression="Panjang * Lebar"/>
+            <output expression="&quot;Luas dari bangun datar tersebut adalah &quot; &amp; Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

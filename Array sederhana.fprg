@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Darfito"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 12:06:43 PM"/>
+        <attribute name="created" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTsxMTo0NTo1NCBBTTszMDQ5"/>
+        <attribute name="edited" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTsxMjowNjo0MyBQTTsyOzMxNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array, n, i, Total" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan nilai array&quot;" newline="True"/>
+            <input variable="array"/>
+            <declare name="a" type="Integer" array="True" size="array"/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;masukkan nilai n&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="i&lt;=n">
+                <input variable="a[i]"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=n">
+                <output expression="a[i]" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <assign variable="Total" expression="a[1]+a[2]+a[3]+a[4]"/>
+            <output expression="&quot;Total dari keempat anggota tersebut &quot; &amp; Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

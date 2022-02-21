@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Darfito"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 10:52:26 AM"/>
+        <attribute name="created" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTswOTo0MzoyNiBBTTszMDUz"/>
+        <attribute name="edited" value="RGFyZml0bztMQVBUT1AtSjJJTENLR1E7MjAyMi0wMi0yMTsxMDo1MjoyNiBBTTsxOzMxNTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, R, F" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukkan nilai Celcius: &quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="R" expression="C*4/5"/>
+            <assign variable="F" expression="C*(9/5) + 32"/>
+            <output expression="&quot;nilai Fahrenheit dan Reamurnya adalah &quot; &amp; R &amp; &quot; dan &quot; &amp; F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
